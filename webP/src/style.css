@@ -1,0 +1,12 @@
+*{
+    margin: 0; padding: 0;
+}
+
+h1, p, button{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+button{
+    padding: 10px 20px;
+}

@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.background{
+    width: 120%;
+    height: 120vh;
+    filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+    top:-10%; left: -10%;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.wrapper{
+    /* background-color: #fff;
+    padding: 100px;
+    border-radius: 100px; */
+
+}
+
+.swiper{
+    overflow: hidden;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 0 50px 20px rgba(0,0,0,0.3);
+}
+
+
+.swiper-slide img{
+    width: 101%;
+}
+
+@media (max-width: 650px) {
+    .swiper{
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .swiper{
+        width: 200px;
+        height: 100px;
+    }
+
+}
+

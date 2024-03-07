@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0; margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: Noto Sans;
+}
+
+.search, .vacancy-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search input{
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+.search input::placeholder{
+    color: #c4c4c4;
+}
+
+.search input:hover, .vacancy:hover{
+    border: 1px solid #d3d3d3;
+}
+
+.search input:focus{
+    border: 1px solid #9f9f9f;
+}
+
+.vacancy-container{
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+}
+
+.vacancy{
+    width: 100%;
+    height: auto;
+    border: 1px solid #b5b5b5;
+    margin-top: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.vacancy a{
+    color: rgb(3, 88, 216);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.area{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.experience{
+    font-size: 15px;
+}
+
+.pages{
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    margin: auto;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.page{
+    cursor: pointer;
+}
+
+.active{
+    font-weight: 800;
+}
